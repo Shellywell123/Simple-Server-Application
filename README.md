@@ -9,6 +9,7 @@ My first attempt at creating a simple server application, written using python3.
  - `locate_user.py` script to gather the geographical location of an account by a supplied username
 
 ## Usage:
+Start server host.
 ```bash
 python3 server.py
 
@@ -31,6 +32,7 @@ starting server...
 Server listening on 127.0.0.1:3299
 ```
 
+Connect to server as a client.
 ```bash
 python3 client.py
 ```
@@ -49,5 +51,5 @@ Server options:
 ```
 
 ## To be developed:
- - adding client device to get info
+ - threading to allow multiple users
  - checking of duplicate usernames before adding new entry to csv
